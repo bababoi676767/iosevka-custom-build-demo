@@ -1,13 +1,13 @@
 # Put your custom build plans here
 
-[buildPlans.IosevkaBababoi]
-family = "Iosevka Bababoi"
+[buildPlans.BababoiForever]
+family = "Bababoi forever"
 spacing = "fontconfig-mono"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.IosevkaBababoi.variants.design]
+[buildPlans.BababoiForever.variants.design]
 one = "base-flat-top-serif"
 four = "closed-serifless"
 five = "upright-arched-serifless"
@@ -20,6 +20,7 @@ capital-a = "curly-serifless"
 capital-c = "serifless"
 capital-f = "serifless"
 capital-g = "flat-bottom-serifless-hooked"
+capital-m = "flat-bottom-serifless"
 capital-q = "curly-tailed"
 capital-r = "straight-serifless"
 capital-s = "serifless"
@@ -33,6 +34,7 @@ g = "single-storey-flat-hook-serifless"
 i = "zshaped"
 k = "straight-serifless"
 l = "serifed-flat-tailed"
+m = "serifless"
 r = "compact-serifed"
 t = "flat-hook-short-neck2"
 w = "straight-flat-top-serifless"
@@ -51,23 +53,33 @@ cent = "open"
 percent = "rings-segmented-slash"
 question = "smooth"
 
-[buildPlans.IosevkaBababoi.weights.Regular]
+[buildPlans.BababoiForever.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
-[buildPlans.IosevkaBababoi.weights.Bold]
+[buildPlans.BababoiForever.weights.Bold]
 shape = 700
 menu = 700
 css = 700
 
-[buildPlans.IosevkaBababoi.slopes.Upright]
+[buildPlans.BababoiForever.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
+
+[buildPlans.BababoiForever.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.BababoiForever.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaBababoi.slopes.Italic]
+[buildPlans.BababoiForever.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
